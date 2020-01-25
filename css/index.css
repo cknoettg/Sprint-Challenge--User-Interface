@@ -213,3 +213,33 @@ a {
     background: dodgerblue;
 }
 
+/* Additional About page CSS */
+hr {
+    border: 1px dashed black;
+}
+.about-section {
+    padding: 20px;
+    justify-content: center;
+}
+
+.about-section img {
+    padding: 20px;
+    justify-content: center;
+    /* troubleshooting border */
+    border: 1px solid red;
+    width: 100%;
+}
+
+.strategy {
+    columns: 2;
+    justify-content: center;
+}
+.strategy div {
+    
+    width: 100%;
+}
+
+.strategy p {
+    width: 100%;
+}
+

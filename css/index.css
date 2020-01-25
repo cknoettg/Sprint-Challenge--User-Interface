@@ -217,7 +217,7 @@ a {
 hr {
     border: 1px dashed black;
 }
-.about-section {
+.about-section, .together {
     padding: 20px;
     justify-content: center;
 }
@@ -230,7 +230,7 @@ hr {
     width: 100%;
 }
 
-.strategy {
+.strategy, .places {
     columns: 2;
     justify-content: center;
 }

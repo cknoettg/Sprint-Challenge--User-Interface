@@ -82,7 +82,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    padding-top: 20px;  
 }
 
 .middle-content {
@@ -143,4 +144,98 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* My CSS Additions here */
+header {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+a {
+    display:flex;
+    justify-content: space-between;
+}
+
+.middle-content .boxes .box:nth-child(1){
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3){
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5){
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6){
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7){
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8){
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9){
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10){
+    background: dodgerblue;
+}
+
+/* Additional About page CSS */
+hr {
+    border: 1px dashed black;
+}
+.about-section, .together {
+    padding: 20px;
+    justify-content: center;
+}
+
+.strategy, .places {
+    columns: 2;
+    justify-content: center;
+}
+.strategy, .places div {
+    align-items: space-between;
+    padding: 10px;
+    width: 100%;
+}
+
+.strategy p {
+    width: 100%;
+}
+
+button {
+	background-color:white;
+	font-family: inherit;
+	border: 2px solid black;
+	border-radius: 5px;
+	height: 35px;
+	width: 150px;	
+    text-align: center;	
+    margin-top: 20px;
 }

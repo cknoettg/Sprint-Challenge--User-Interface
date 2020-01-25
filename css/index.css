@@ -157,7 +157,7 @@ header {
 }
 
 nav {
-    font: inherit;
+    font-family: 'Rubik', sans-serif;
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -234,12 +234,23 @@ hr {
     columns: 2;
     justify-content: center;
 }
-.strategy div {
-    
+.strategy, .places div {
+    align-items: space-between;
     width: 100%;
 }
 
 .strategy p {
     width: 100%;
+}
+
+button {
+	background-color:white;
+	font-family: inherit;
+	border: 2px solid black;
+	border-radius: 5px;
+	height: 35px;
+	width: 150px;	
+    text-align: center;	
+    margin-top: 20px;
 }
 
